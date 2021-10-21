@@ -1,0 +1,71 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    background-color: black;
+}
+
+button , .topButton {
+    background-color: rgb(21, 196, 21);
+    width: 95%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    width: 95%;
+    height: 30px;
+    margin:20px auto;
+    background-color: black;
+    border: white solid 1px;
+    text-align: left;
+    font-size: 15px;
+}
+.tog {
+    display: inline;
+    width: 47%;
+    margin-bottom: 0;
+}
+
+.buttonContainer {
+    width: 99%;
+    text-align: center;
+    padding: 15px ;
+    /* margin: 0; */
+}
+
+.topButton {
+    width: 47%;
+    height: 70px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+.topButton:hover {
+    background-color: rgb(74, 246, 74);
+}
+
+.signup {
+    background-color: black;
+}
+
+.log {
+    background-color: black;
+}
+
+.forgot {
+    text-align: right;
+    color: rgb(74, 246, 74);
+    margin-right: 3%;
+    display: block;
+}
